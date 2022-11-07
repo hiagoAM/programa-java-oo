@@ -1,4 +1,4 @@
-
+package br.com.bitBank.banco.modelo;
 
 //new ContaCorrente()
 public class ContaCorrente extends Conta implements Tributavel {

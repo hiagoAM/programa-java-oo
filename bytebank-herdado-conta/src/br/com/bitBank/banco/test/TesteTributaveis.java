@@ -1,3 +1,8 @@
+package br.com.bitBank.banco.test;
+
+import br.com.bitBank.banco.modelo.CalculadorDeImposto;
+import br.com.bitBank.banco.modelo.ContaCorrente;
+import br.com.bitBank.banco.modelo.SeguroDeVida;
 
 public class TesteTributaveis {
 

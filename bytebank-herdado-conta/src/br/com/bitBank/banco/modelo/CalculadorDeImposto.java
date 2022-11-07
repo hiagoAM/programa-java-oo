@@ -1,3 +1,4 @@
+package br.com.bitBank.banco.modelo;
 
 public class CalculadorDeImposto {
 	
