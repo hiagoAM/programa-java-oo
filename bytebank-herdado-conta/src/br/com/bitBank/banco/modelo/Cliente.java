@@ -1,5 +1,15 @@
 package br.com.bitBank.banco.modelo;
 
+/**
+ * 
+ * Classe que representa um cliente no BitBank
+ * 
+ * @author Hiago Adamosky Machado
+ * @version 0.1
+ * 
+ *
+ */
+
 public class Cliente {
 
     private String nome;
