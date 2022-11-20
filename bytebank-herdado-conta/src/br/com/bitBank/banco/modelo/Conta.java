@@ -1,7 +1,7 @@
 package br.com.bitBank.banco.modelo;
 
 /**
- * Classe representa a moldura de uma conta´p
+ * Classe representa a moldura de uma conta
  * 
  * @author Hiago Adamosky Machado
  *

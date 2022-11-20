@@ -1,37 +1,26 @@
 package br.com.bitBank.banco.test;
 
+import br.com.bitBank.banco.modelo.Conta;
 import br.com.bitBank.banco.modelo.ContaCorrente;
-import br.com.bitBank.banco.modelo.ContaPoupanca;
+import br.com.bitBank.banco.modelo.GuardadorDeContas;
 
 public class Teste {
-	
-	public static void main(String[]args) {
-		//System.out.println("x");
-		//System.out.println(3);
-		//System.out.println(false);
+	public static void main(String[] args) {
 		
-		ContaCorrente cc = new ContaCorrente(22,33);
-		ContaPoupanca cp = new ContaPoupanca(33,22);
+		GuardadorDeContas guardador = new GuardadorDeContas();
 		
-		System.out.println(cc);
-		System.out.println(cp);
+		Conta cc=new ContaCorrente(22,11);
+		guardador.adiciona(cc);
 		
-		println();
+		Conta cc2=new ContaCorrente(22,22);
+		guardador.adiciona(cc2);
 		
-	}
-	
-	
-	static void println() {
+		int tamanho=guardador.getQuantidadeDeElementos();
+		System.out.println(tamanho);
+		
+		Conta ref=(Conta) guardador.getReferencia(1);
+		System.out.println(ref.getNumero());
+		
 		
 	}
-	
-	static void println(int a) {
-		
-	}
-	
-	static void println(boolean valor) {
-		
-	}
-	
-	
 }
