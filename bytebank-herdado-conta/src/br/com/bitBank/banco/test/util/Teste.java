@@ -1,6 +1,9 @@
 package br.com.bitBank.banco.test.util;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
 
 import br.com.bitBank.banco.modelo.Cliente;
 import br.com.bitBank.banco.modelo.Conta;
@@ -10,7 +13,7 @@ public class Teste {
 	
 	public static void main(String[]args) {
 		
-		ArrayList<Conta> lista=new ArrayList<Conta>();
+		List<Conta> lista=new Vector<Conta>();
 		
 		Conta cc=new ContaCorrente(22,11);
 		lista.add(cc);
